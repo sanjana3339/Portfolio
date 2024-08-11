@@ -4,7 +4,24 @@
 
 .sidebar{
     height:100vh;
-    background-color:rgb(115, 0, 255);
+    background-color:rgb(210, 172, 255);
     width: 90px;
+}
+.sidebar-toggle{
+    height:100vh;
+    background-color:rgb(210, 172, 255);
+    width:230px;
+}
 
+.sidebar-toggle-icons{
+    display:flex;
+    align-items: right;
+    justify-content: right;
+    cursor:pointer;
+}
+
+.sidebar-toggle-icons p svg{
+    background-color: rgb(255, 153, 0);
+    color:white;
+    margin-top: 30px;
 }

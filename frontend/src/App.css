@@ -1,6 +1,9 @@
-.App{
-    background-image: "https://i.pinimg.com/originals/1f/7e/6f/1f7e6f8a439c3a0eb617af33c41e2b90.jpg";
-    margin: 0;
+.app-page {
+    /* background-image: url("https://media.istockphoto.com/id/169945157/photo/milkyway-seen-from-the-southern-skies.webp?b=1&s=170667a&w=0&k=20&c=HoY5xQeWWY2m_7E9kaT59eQ6Y5s_1-hHEZHn56GdDhY="); */
+    background-color: black;
     padding: 0;
-    height: 100vh; 
-}
+    height: 100vh;
+    background-size: cover; /* Ensure the background covers the entire element */
+    background-position: center; /* Center the background image */
+  }
+  
