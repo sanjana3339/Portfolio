@@ -1,8 +1,10 @@
+import Layout from "./components/layout/layout";
+import './App.css'
 
 function App() {
   return (
-    <div>
-      <h1 className='text-success'>Hellooooo</h1>
+    <div className='App'>
+      <Layout/>
     </div>
   );
 }

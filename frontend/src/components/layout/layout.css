@@ -1,0 +1,10 @@
+.sidebar-section{
+    display:flex;
+}
+
+.sidebar{
+    height:100vh;
+    background-color:rgb(115, 0, 255);
+    width: 90px;
+
+}
