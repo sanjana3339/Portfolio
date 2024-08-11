@@ -5,7 +5,7 @@
 .sidebar{
     height:100vh;
     background-color:rgb(210, 172, 255);
-    width: 90px;
+    width: 80px;
 }
 .sidebar-toggle{
     height:100vh;
@@ -23,5 +23,5 @@
 .sidebar-toggle-icons p svg{
     background-color: rgb(255, 153, 0);
     color:white;
-    margin-top: 30px;
+    margin-top: 10px;
 }

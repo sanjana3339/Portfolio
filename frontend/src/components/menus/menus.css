@@ -1,0 +1,44 @@
+.menu-page-profile-pic img{
+    height:150px; 
+    width:150px;
+    border-radius: 90px;
+    display: flex;
+    vertical-align: middle;
+    margin:0 auto;
+}
+
+.menu-page-profile-pic-toggle img{
+    border-radius: 90px;
+    height:55px;
+    width:55px;
+    display: flex;
+    vertical-align: middle;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+.nav-item{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin-top:25px ;
+    margin-left: 20px;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+.nav-link svg{
+    height:22px;
+    margin-right: 8px;
+    
+}
+.nav-link:hover{
+    color:blue;
+}
+
+.nav-item-toggle svg{
+    height:30px;
+    width:30px;
+    margin-top:29px ;
+    margin-left: 26px;
+}
