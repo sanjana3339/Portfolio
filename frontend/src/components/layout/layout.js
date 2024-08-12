@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Home from '../../pages/home/home';
+import About from '../../pages/about/about';
 import Menu from '../menus/menus';
 import { AiOutlineDoubleLeft } from "react-icons/ai";
 import { AiOutlineDoubleRight } from "react-icons/ai";
@@ -27,7 +27,7 @@ return(
                 <Menu toggle={toggle}/>
             </div>
             <div className='container'>
-                <Home/>
+                <About/>
 
             </div>
         </div>

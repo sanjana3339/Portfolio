@@ -4,12 +4,12 @@
 
 .sidebar{
     height:100vh;
-    background-color:rgb(210, 172, 255);
+    background-color:rgb(191, 122, 255);
     width: 80px;
 }
 .sidebar-toggle{
     height:100vh;
-    background-color:rgb(210, 172, 255);
+    background-color:rgb(191, 122, 255);
     width:230px;
 }
 

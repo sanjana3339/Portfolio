@@ -1,0 +1,16 @@
+.about-page {
+    background-color: hsl(0, 0%, 0%);
+    margin-left: 20px;
+  }
+.about-content{
+  color: rgb(191, 122, 255);
+  padding-top: 30px;
+  
+}
+.about-content h3{
+  font-family:monospace;
+}
+.type-writer{
+  font-size:45px;
+  color: white;
+}
