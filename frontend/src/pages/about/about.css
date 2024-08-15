@@ -1,16 +1,57 @@
 .about-page {
-    background-color: hsl(0, 0%, 0%);
-    margin-left: 20px;
+    /* background-color: hsl(0, 0%, 0%); */
+    background-color: rgba(0, 0, 0,0);
+    /* margin-left: 20px; */
   }
 .about-content{
-  color: rgb(191, 122, 255);
   padding-top: 30px;
   
 }
 .about-content h3{
   font-family:monospace;
+  color: #81baff;
+  padding-left: 10px;
 }
 .type-writer{
   font-size:45px;
   color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+/* .about-content h5{
+  font-family:monospace;
+  padding-left: 10px;
+  padding-top: 20px;
+  color: #f09c15;
+} */
+.resume-button{
+  padding-left: 10px;
+  padding-top:30px;
+}
+.resume-button button{
+  background-color:  #81baff;
+  font-size:20px ;
+}
+
+.resume-button button:hover{
+  background-color:  rgb(200, 107, 0);
+  font-size:22px ;
+  transition: 0.5s;
+}
+
+.info img{
+  padding-top: 40px;
+  padding-right:30px;
+  height:200px;
+  width:150px;
+  float:right;
+}
+.info h5{
+  padding-top: 40px;
+  padding-left:20px;
+  padding-right: 230px;
+  size: 30px;
+  color:rgb(255, 206, 116);
+  flex-wrap: wrap;
+  font-family:Arial, Helvetica, sans-serif;
 }

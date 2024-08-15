@@ -29,7 +29,7 @@ return(
     {
         props.toggle?
         (
-        <><div className='nav-item'>
+        <div className='rocket'><div className='nav-item'>
             <div className='nav-link'>
             <FaInfoCircle/>
             About
@@ -83,9 +83,9 @@ return(
             Contact
             </div>
         </div>
-        </>):
+        </div>):
         (
-        <>
+        <div className='rocket-toggle'>
         <div className='nav-item-toggle'>
             <div className='nav-link'>
             <FaInfoCircle/>
@@ -131,7 +131,7 @@ return(
             <RiContactsBook3Fill/>
             </div>
         </div>
-        </>
+        </div>
         )
 
     }

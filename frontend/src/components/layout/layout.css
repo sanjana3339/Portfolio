@@ -4,12 +4,16 @@
 
 .sidebar{
     height:100vh;
-    background-color:rgb(191, 122, 255);
-    width: 80px;
+    /* background-color:#00133c; */
+    /* background: linear-gradient(to bottom,rgb(28, 0, 54),rgb(164, 75, 247)); */
+    background-color: rgba(0, 0, 0,0.8);
+    width: 100px;
 }
 .sidebar-toggle{
     height:100vh;
-    background-color:rgb(191, 122, 255);
+    /* background-color:#cc9c75; */
+    /* background: linear-gradient(to left,rgb(23, 63, 197),rgb(0, 5, 125)); */
+    background-color: rgba(0, 0, 0,0.8);
     width:230px;
 }
 
