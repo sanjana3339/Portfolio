@@ -3,7 +3,9 @@ import About from '../../pages/about/about';
 import Menu from '../menus/menus';
 import { AiOutlineDoubleLeft } from "react-icons/ai";
 import { AiOutlineDoubleRight } from "react-icons/ai";
+import Skills from '../../pages/skills/skills';
 import './layout.css'
+import Projects from '../../pages/projects/projects';
 
 function Layout()
 {
@@ -28,6 +30,8 @@ return(
             </div>
             <div className='container'>
                 <About/>
+                <Skills/>
+                <Projects/>
 
             </div>
         </div>
