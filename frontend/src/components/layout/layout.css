@@ -4,16 +4,16 @@
 
 .sidebar{
     height:100vh;
-    /* background-color:#00133c; */
+    background-color:#d8b4fe;
     /* background: linear-gradient(to bottom,rgb(28, 0, 54),rgb(164, 75, 247)); */
-    background-color: rgba(0, 0, 0,0.8);
-    width: 100px;
+    /* background-color: rgb(255,255,255,0.8); */
+    width: 90px;
 }
 .sidebar-toggle{
     height:100vh;
-    /* background-color:#cc9c75; */
+    background-color:#d8b4fe;
     /* background: linear-gradient(to left,rgb(23, 63, 197),rgb(0, 5, 125)); */
-    background-color: rgba(0, 0, 0,0.8);
+    /* background-color: rgb(255,255,255,0.8); */
     width:230px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .sidebar-toggle-icons p svg{
-    background-color: rgb(255, 153, 0);
-    color:white;
+    background-color: #400d74;
+    color:rgb(255, 255, 255);
     margin-top: 10px;
 }

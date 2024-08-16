@@ -9,7 +9,7 @@
 }
 .about-content h3{
   font-family:monospace;
-  color: #81baff;
+  color: #d8b4fe;
   padding-left: 10px;
 }
 .type-writer{
@@ -29,7 +29,7 @@
   padding-top:30px;
 }
 .resume-button button{
-  background-color:  #81baff;
+  background-color:  #d8b4fe;
   font-size:20px ;
 }
 
@@ -39,19 +39,26 @@
   transition: 0.5s;
 }
 
+.info{
+  margin-top:90px;
+  border-radius: 10px;
+  padding:40px;
+  /* background-color: #d8b4fe; */
+  border:2px solid;
+  border-color: #d8b4fe;
+}
 .info img{
-  padding-top: 40px;
-  padding-right:30px;
+  padding-left:20px;
   height:200px;
-  width:150px;
+  width:200px;
+  border-radius: 120px;
   float:right;
 }
 .info h5{
-  padding-top: 40px;
-  padding-left:20px;
-  padding-right: 230px;
   size: 30px;
-  color:rgb(255, 206, 116);
+  color:#e0e0e0;
   flex-wrap: wrap;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: justify;
 }

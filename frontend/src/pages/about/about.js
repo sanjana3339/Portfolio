@@ -27,7 +27,7 @@ return(
             <button className="btn" onClick={handleOpen}>My Resume</button>
         </div>
         <div className='info'>
-            <img src="https://purepng.com/public/uploads/thumbnail//astronaut-hold-flag-in-hand-cmr.png"/>
+            <img src="https://static.vecteezy.com/system/resources/previews/029/271/069/original/avatar-profile-icon-in-flat-style-female-user-profile-illustration-on-isolated-background-women-profile-sign-business-concept-vector.jpg"/> 
          <h5>
          Passionate Computer Science student at CBIT with a strong foundation in web development and problem-solving. 
          Proficient in key technologies including Python, JavaScript, HTML, CSS, and SQL, with hands-on experience in frameworks like React and Node.js. 
@@ -35,7 +35,7 @@ return(
          Experienced in collaborating on dynamic team projects, including a notable hackathon with JPMorgan Chase, 
          addressing real-world challenges posed by the NGO Room To Read. Eager to leverage my technical skills and 
          problem-solving abilities to contribute to impactful projects that drive technological advancements and make a difference in people’s lives.
-        </h5>
+        </h5> 
         </div>
     </div>
 )

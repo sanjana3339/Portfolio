@@ -16,48 +16,67 @@
     margin:0 auto;
     margin-bottom: 40px;
 }
-
-.nav-item{
+.nav-item {
     font-size: 22px;
-    color: rgb(255, 255, 255);
-    margin-top:20px ;
-    margin-left: 20px;
+    color: #000000;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding: 7.5px; /* Add some padding for better visual effect */
+    border-radius: 8px; /* Optional: add rounded corners */
 }
 
-.nav-link{
+.nav-link {
     cursor: pointer;
+    display: flex; /* To align icon and text horizontally */
+    align-items: center; /* Vertically center icon and text */
 }
-.nav-link svg{
-    height:22px;
+
+.nav-link svg {
+    height: 22px;
     margin-right: 8px;
-    
-}
-.nav-link svg:hover{
-    color:rgb(200, 107, 0);
-
-    
-}
-.nav-link:hover{
-    color:rgb(200, 107, 0);
 }
 
+.nav-item:hover {
+    background-color: aliceblue; /* Change background color on hover */
+}
 
-.rocket .nav-link::after {
-    content: "🚀"; /* Replace with your desired emoji */
+.nav-link:hover {
+    /* background-color: aliceblue; */
+    color: #400d74;
+}
+
+.nav-link svg:hover {
+    /* background-color: aliceblue; */
+    color: #400d74;
+}
+
+/* .rocket .nav-link::after {
+    content: "👀"; 
     position: relative;
-    left:0.5em; /* Adjust this to change the distance of the emoji from the text */
+    left: 0.5em; 
     opacity: 0;
-    transition: opacity 0.2s;
+    transition: opacity 0.4s;
 }
 
 .rocket .nav-link:hover::after {
     opacity: 1;
-}
+    border-bottom: 2px solid currentColor;
+} */
 
-.nav-item-toggle svg{
-    color: rgb(255, 255, 255);
-    height:30px;
-    width:30px;
-    margin-top:29px ;
+.nav-item-toggle svg {
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 30px;
+    margin-top: 29px;
+    margin-left: 26px;
+}
+.nav-item-toggle:hover svg {
+    color: rgb(0, 0, 0);
+    height: 32px;
+    width: 32px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding:1px;
+    margin-top: 29px;
     margin-left: 26px;
 }
