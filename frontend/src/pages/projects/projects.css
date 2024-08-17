@@ -1,4 +1,4 @@
-.skills-component{
+.projects-component{
     background-color: rgba(0, 0, 0,0);
     margin-top: 80px;
     margin-left: 100px;
@@ -6,27 +6,38 @@
     flex-direction: column;
     align-items: center;
 }
-.skills-component h1{
+.projects-component h1{
     color:#ffffff ;
     padding-bottom: 5px;
     border-bottom: 2px solid;
     display: flex;
     
 }
-.skills-component .row{
+.projects-component .row{
     padding-top: 30px;
     
 }
-.skills-component .card {
+.projects-component .card {
     /* border-radius: 12px; */
     transition: background-color 0.9s ease;
     cursor: pointer;
     transition: box-shadow 0.4s ease;
+    margin-top: 30px;
 }
-.skills-component .card-body{
+.projects-component .card-title {
+    font-size: 1.4em;        /* Adjust the font size */
+    font-weight: bold;       /* Make the title bold */
+    text-align: center;      /* Center the text horizontally */
+    padding-top: 10px;
+    padding-left: 10px;   
+    padding-right: 10px;       /* Add some vertical margin for spacing */
+    color: #000000;        
+}
+
+.projects-component .card-body{
     background-color:rgba(0, 0, 0, 0);
     /* border: 2px solid #d8b4fe; Sets the border color and width */
-    padding-top: 25px;
+    padding-top: 2px;
     display: flex;
     flex-direction: column;
     align-items: center; /* Centers content horizontally */
@@ -34,13 +45,39 @@
     
     /* color: white; */
 }
-.skills-component .skill-icon{
-    padding-right: 3px;
+.projects-component .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes up the full height of the card body */
+}
+.projects-component .card-image img{
+    height: 300px;
+    width: 400px;
+    padding:30px;
     /* color: white; */
 }
-
-.skills-component .card:hover{
-    background-color:rgba(0, 0, 0, 0);
-    color: white;
-    box-shadow: 0 0 10px #d8b4fe;
+.projects-component .card-desc {
+    font-size: 1.1em;           /* Set the font size */
+    color: #000000;              /* Set the text color to a medium gray */
+    line-height: 1.5;         /* Adjust line height for readability */
+    text-align: justify;         /* Align the text to the left */          /* Add some vertical margin for spacing */
+    padding: 5px;            /* Add padding for internal spacing */       /* Optional: Round the corners */
+    
 }
+
+.projects-component .card:hover{
+    /* background-color:rgba(0, 0, 0, 0); */
+    /* color: white; */
+    box-shadow: 0 0 30px #d8b4fe;
+}
+
+.projects-component .tech-badge {
+    display: inline-block;
+    background-color: #32005d;
+    color:white;
+    padding: 5px 10px;
+    margin: 7px 7px 5px 0;
+    border-radius: 8px;
+    font-size: 1.1em;
+  }

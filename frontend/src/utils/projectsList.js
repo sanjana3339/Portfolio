@@ -1,103 +1,43 @@
+import Medicine from "../attachments/medicine.PNG"
+import quiz from "../attachments/quiz.PNG"
+import iot from "../attachments/iot.PNG"
+import portfolio from "../attachments/portfolio.PNG"
 
 export const projectsList = [
   {
     _id: 1,
-    name: "HTML",
-    icon: BsFiletypeHtml,
+    name: "JP Morgan Code for Good 2024",
+    img: "https://media.licdn.com/dms/image/D5612AQEtgzyAg9L4UA/article-cover_image-shrink_600_2000/0/1719380497835?e=2147483647&v=beta&t=a9gCM0RLaBAKoaxgAgteNftNSLnQTUYjsyhbv8MZB7U",
+    desc: "Developed a library management system for rural areas, focusing on simplicity and internet connectivity, for the NGO Room to Read using the MERN stack.",
+    stack: "MongoDB, ExpressJS, React, Node"
   },
   {
     _id: 2,
-    name: "CSS",
-    icon: BsFiletypeCss,
+    name: "Medicine Recommendation System",
+    img: Medicine,
+    desc: "Developed a medicine recommendation system based on input symptoms using machine learning techniques.",
+    stack: "Python, Machine Learning,Flask"
   },
   {
     _id: 3,
-    name: "Bootstrap",
-    icon: BsBootstrap,
+    name: "Voice Controlled Home Automation",
+    img: iot,
+    desc: "Developed a home automation project controlled by voice commands through Bluetooth connectivity from a mobile phone.",
+    stack: "IoT, Bluetooth, C++"
   },
   {
     _id: 4,
-    name: "Javascript",
-    icon: SiJavascript,
+    name: "Quiz Application",
+    img: quiz,
+    desc: "Developed a Quiz application using Tkinter in Python.",
+    stack: "Python, Tkinter"
   },
   {
     _id: 5,
-    name: "C",
-    icon: SiC,
+    name: "Portfolio",
+    img: portfolio,
+    desc: "Developed a personal portfolio showcasing my skills,projects and achievements",
+    stack: "MongoDB, ExpressJS, React, Node"
   },
-  {
-    _id: 6,
-    name: "Python",
-    icon: SiPython,
-  },
-  {
-    _id: 7,
-    name: "Java",
-    icon: RiTeamLine,
-  },
-  {
-    _id: 8,
-    name: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
-    _id: 9,
-    name: "AngularJS",
-    icon: SiAngular,
-  },
-  {
-    _id: 10,
-    name: "SpringBoot",
-    icon: SiSpringboot,
-  },
-  {
-    _id: 11,
-    name: "ReactJS",
-    icon: SiReact,
-  },
-  {
-    _id: 12,
-    name: "NodeJS",
-    icon: FaNodeJs,
-  },
-  {
-    _id: 13,
-    name: "ExpressJS",
-    icon: SiExpress,
-  },
-  {
-    _id: 14,
-    name: "Mongodb",
-    icon: SiMongodb,
-  },
-  {
-    _id: 15,
-    name: "MySQL",
-    icon: SiMysql,
-  },
-  {
-    _id: 16,
-    name: "Git-Github",
-    icon: SiGithub,
-  },
-  {
-    _id: 17,
-    name: "TeamWork",
-    icon: SiTeamviewer, // Updated icon for Team Work
-  },
-  {
-    _id: 18,
-    name: "Leadership",
-    icon: RiTeamLine, // Updated icon for Leadership
-  },
-  {
-    _id: 19,
-    name: "Communication",
-    icon: RiTeamLine, // Updated icon for Communication
-  },
-  {
-    _id: 20,
-    name: "Adaptability",
-    icon: RiTeamLine, // Updated icon for Adaptability
-  }
+
 ];

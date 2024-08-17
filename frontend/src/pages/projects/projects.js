@@ -1,32 +1,41 @@
 import React from 'react';
-import './projects.css'
+import './projects.css';
 import { projectsList } from '../../utils/projectsList';
 
-function Projects()
-{
-return(
+function Projects() {
+  return (
     <div className='projects-component'>
-        <h1>Projects</h1>
-        <div className='row'>
-        {projectsList.map((project)=>(
-            <div className='col-md-3'>
-                <div className="card m-2">
-                    <div className='card-content'>
-                        <div className='card-body'>
-                            <div className='media d-flex justify-content-center'>
-                                <skill.icon className='skill-icon' size={35}/>
-                                <h5>{skill.name}</h5>
-                            </div>
-                        </div>
-                    </div>
+      <h1>Projects</h1>
+      <div className='row'>
+        {projectsList.map((project) => (
+          <div className='col-md-4' key={project._id}>
+            <div className="card rounded">
+              <div className='card-title'>{project.name}</div>
+              <div className='card-image'>
+                <img src={project.img} alt={project.name} />
+              </div>
+              <div className='card-body'>
+                <div className='card-desc'>{project.desc}</div>
+                <div className='card-detail-badge'>
+                  {project.stack.split(',').map((tech, index) => (
+                    <span key={index} className='tech-badge'>
+                      {tech.trim()}
+                    </span>
+                  ))}
                 </div>
+                {/* Only render the GitHub link if it exists */}
+                {project.git && (
+                  <a href={project.git} target="_blank" rel="noopener noreferrer">
+                    Github Repository
+                  </a>
+                )}
+              </div>
             </div>
-
+          </div>
         ))}
-        </div>
+      </div>
     </div>
-)
-
+  );
 }
 
 export default Projects;
