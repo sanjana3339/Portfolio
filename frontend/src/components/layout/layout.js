@@ -6,6 +6,12 @@ import { AiOutlineDoubleRight } from "react-icons/ai";
 import Skills from '../../pages/skills/skills';
 import './layout.css'
 import Projects from '../../pages/projects/projects';
+import Certification from '../../pages/certification/certification';
+import Education from '../../pages/education/education';
+import Achievements from '../../pages/achievements/achievements';
+import Internship from '../../pages/internship/internship';
+import Activities from '../../pages/activities/activities';
+import Contact from '../../pages/contact/contact';
 
 function Layout()
 {
@@ -30,8 +36,14 @@ return(
             </div>
             <div className='container'>
                 <About/>
+                <Education/>
                 <Skills/>
                 <Projects/>
+                <Internship/>
+                <Certification/>
+                <Achievements/>
+                <Activities/>
+                <Contact/>
 
             </div>
         </div>

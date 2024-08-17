@@ -66,10 +66,15 @@
     
 }
 
+.projects-component .git-link{
+    padding-top: 15px;
+    font-size: 1.1em;
+}
 .projects-component .card:hover{
     /* background-color:rgba(0, 0, 0, 0); */
     /* color: white; */
     box-shadow: 0 0 30px #d8b4fe;
+    transform: scale(1.05);
 }
 
 .projects-component .tech-badge {

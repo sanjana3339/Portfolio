@@ -1,0 +1,88 @@
+.achievement-component{
+    background-color: rgba(0, 0, 0,0);
+    margin-top: 80px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.achievement-component h1{
+    color:#ffffff ;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    display: flex;
+    
+}
+.achievement-component .row {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    justify-content: center; /* Center cards horizontally */
+    width: 100%;
+}
+
+.achievement-component .col-md-4 {
+    padding: 15px; /* Add padding around columns */
+}
+.achievement-component .card {
+    /* border-radius: 12px; */
+    transition: background-color 0.9s ease;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0,0);
+    transition: box-shadow 0.4s ease;
+    color: white;
+    border:2px solid;
+    border-color: #d8b4fe;
+    margin-top: 30px;
+}
+.achievement-component .card-title {
+    font-size: 1.4em;        /* Adjust the font size */
+    font-weight: bold;       /* Make the title bold */
+    text-align: center;      /* Center the text horizontally */
+    padding-top: 10px;
+    padding-left: 10px;   
+    padding-right: 10px;       /* Add some vertical margin for spacing */
+    color: #ffffff;        
+}
+
+.achievement-component .card-body{
+    background-color:rgba(0, 0, 0, 0);
+    /* border: 2px solid #d8b4fe; Sets the border color and width */
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; 
+    
+    /* color: white; */
+}
+/* .achievement-component .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} */
+/* .achievement-component .card-image img{
+    height: 250px;
+    width: 300px;
+    padding:30px;
+
+} */
+.achievement-component .card-body {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px; /* Add padding for internal spacing */
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-between; /* Space out items to the left and right edges */
+    align-items: center; /* Align items vertically in the center */
+    font-size: 1.2em; /* Set the font size */
+    color: #ffffff; /* Set the text color */
+    line-height: 1.5; /* Adjust line height for readability */
+    width: 100%;
+}
+
+.achievement-component .card:hover{
+    /* background-color:rgba(0, 0, 0, 0); 
+    color: white; */
+    box-shadow: 0 0 30px #d8b4fe;
+    transform: scale(1.05); 
+}
+

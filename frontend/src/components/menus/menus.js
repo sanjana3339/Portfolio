@@ -74,7 +74,7 @@ return(
         <div className='nav-item'>
             <div className='nav-link'>
             <RiTeamLine/>
-            Positions
+            Extra Curricular Activities
             </div>
         </div>
         <div className='nav-item'>

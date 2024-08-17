@@ -23,12 +23,11 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                {/* Only render the GitHub link if it exists */}
-                {project.git && (
+                <div className='git-link'>
                   <a href={project.git} target="_blank" rel="noopener noreferrer">
                     Github Repository
                   </a>
-                )}
+                </div>
               </div>
             </div>
           </div>
