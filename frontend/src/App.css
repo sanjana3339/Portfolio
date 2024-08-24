@@ -5,20 +5,15 @@ html, body {
 
 }
 .app-page {
-    /* background-image: url("https://st2.depositphotos.com/1011081/8699/i/450/depositphotos_86997870-stock-photo-high-resolution-image-of-earth.jpg"); */
+    background-color: rgba(43, 12, 58, 0.3);
     background-image: url("https://static.vecteezy.com/system/resources/previews/047/423/264/non_2x/illustrations-of-natural-mountain-landscapes-when-the-sun-sets-or-rises-for-background-vector.jpg");
-    /* background-color: rgb(0, 0, 0,0.1); */
     /* background: linear-gradient(0deg,rgba(25,55,109,0.2) 0%,rgba(25,55,109,1) 100%); */
-    /* background-color: #0d0d0d; */
-    /* padding: 0; */
     height: 100vh;
     min-height: 100vh;
     overflow-y: auto; 
     background-attachment: fixed; 
-    /* background: linear-gradient(to top, #000063, #000000); */
     background-size: cover; /* Ensure the background covers the entire element */
     background-position: center; /* Center the background image */
-    /* background-color: rgba(0, 0, 0, 0.);  */
-    /* background-blend-mode: overlay; */
+    background-blend-mode: overlay;
   }
   
