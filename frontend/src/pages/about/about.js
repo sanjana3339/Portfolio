@@ -9,7 +9,7 @@ function About()
         window.open(Resume, '_blank');
       };
 return(
-    <div className='about-page'>
+    <div className='about-page' id="about">
         <div className='about-content'>
         <h3>Hi, I am</h3>
         <h1 className='type-writer'>

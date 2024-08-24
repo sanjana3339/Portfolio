@@ -4,11 +4,11 @@ import { achievementsList } from '../../utils/achievementsList';
 
 function Achievements() {
   return (
-    <div className='achievement-component'>
+    <div className='achievement-component' id="achievement">
       <h1>Achievements</h1>
       <div className='row'>
         {achievementsList.map((achievement) => (
-          <div className='col-md-4' key={achievement._id}>
+          <div className='col-md-3' key={achievement._id}>
             <div className="card rounded">
               <div className='card-title'>{achievement.name}</div>
               <div className='card-body'>

@@ -4,7 +4,7 @@ import { certificationList } from '../../utils/certificationList';
 
 function Certification() {
   return (
-    <div className='certification-component'>
+    <div className='certification-component' id="certification">
       <h1>Certifications</h1>
       <div className='row'>
         {certificationList.map((certification) => (

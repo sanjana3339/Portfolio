@@ -5,7 +5,7 @@ import { SkillsList } from '../../utils/skillsList';
 function Skills()
 {
 return(
-    <div className='skills-component'>
+    <div className='skills-component' id="skills">
         <h1>Skills</h1>
         <div className='row'>
         {SkillsList.map((skill)=>(

@@ -4,7 +4,7 @@ import { projectsList } from '../../utils/projectsList';
 
 function Projects() {
   return (
-    <div className='projects-component'>
+    <div className='projects-component' id="project">
       <h1>Projects</h1>
       <div className='row'>
         {projectsList.map((project) => (

@@ -8,7 +8,7 @@ import { MdSchool } from 'react-icons/md';
 
 function Education() {
   return (
-    <div className='education-component'>
+    <div className='education-component' id="education">
       <h1>Education</h1>
       <VerticalTimeline>
       {educationList.map((education) => (
@@ -16,8 +16,8 @@ function Education() {
           key={education._id}
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#f5f5f5', color: '#000000' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(255,255,255)' }}
-          date={education.yr}
+          contentArrowStyle={{ borderRight: '9px solid  rgb(255,255,255)' }}
+          date={<span style={{ fontSize: '25px' }}>{education.yr}</span>}
           iconStyle={{ background: '#f5f5f5', color: '#000000' }}
           icon={<MdSchool />}
         >

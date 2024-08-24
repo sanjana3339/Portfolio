@@ -3,7 +3,7 @@ import './internship.css';
 
 function Internship() {
   return (
-    <div className='internship-component'>
+    <div className='internship-component' id="internship">
       <h1>Internship</h1>
       <div className='row'>
           <div className='col-md-8'>

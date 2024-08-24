@@ -5,7 +5,7 @@ import { SiLeetcode } from 'react-icons/si';
 
 function Contact() {
   return (
-    <div className='contact-component'>
+    <div className='contact-component' id="contact">
       <div className='container'>
         <div className='row'>
           {/* First Card */}
@@ -35,11 +35,11 @@ function Contact() {
                     </div>
                   </h1>
 
-                  <div className="row px-3 mb-4">
+                  {/* <div className="row px-3 mb-4">
                     <div className="line" />
                     <small className="or text-center">OR</small>
                     <div className="line" />
-                  </div>
+                  </div> */}
                   <div className="row px-3">
                     <input
                       type="text"
@@ -65,7 +65,7 @@ function Contact() {
                     />
                   </div>
                   <div className="row px-3">
-                    <button className="btn btn-primary">
+                    <button className="btn btn-primary sendmessage">
                       SEND MESSAGE
                     </button>
                   </div>

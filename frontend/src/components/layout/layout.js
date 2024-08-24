@@ -15,7 +15,7 @@ import Contact from '../../pages/contact/contact';
 
 function Layout()
 {
-    const[toggle,setToggle]=useState(true)
+    const[toggle,setToggle]=useState(false)
     const handleToggle=()=>{
         setToggle(!toggle)
     }
@@ -32,19 +32,36 @@ return(
                     
                     </p>
                 </div>
-                <Menu toggle={toggle}/>
+                <Menu toggle={toggle}/> 
             </div>
             <div className='container'>
-                <About/>
-                <Education/>
-                <Skills/>
-                <Projects/>
-                <Internship/>
-                <Certification/>
-                <Achievements/>
-                <Activities/>
-                <Contact/>
-
+                <div id="about">
+                    <About />
+                </div>
+                <div id="education">
+                    <Education />
+                </div>
+                <div id="skills">
+                    <Skills />
+                </div>
+                <div id="projects">
+                    <Projects />
+                </div>
+                <div id="internship">
+                    <Internship />
+                </div>
+                <div id="certifications">
+                    <Certification />
+                </div>
+                <div id="achievements">
+                    <Achievements />
+                </div>
+                <div id="activities">
+                    <Activities />
+                </div>
+                <div id="contact">
+                    <Contact />
+                </div>
             </div>
         </div>
     </div>

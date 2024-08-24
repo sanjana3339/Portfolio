@@ -4,7 +4,7 @@ import { activitiesList } from '../../utils/activitiesList';
 
 function Activities() {
   return (
-    <div className='activities-component'>
+    <div className='activities-component' id="activities">
       <h1>Extra-Curricular Activities</h1>
       <div className='row'>
         {activitiesList.map((activity) => (

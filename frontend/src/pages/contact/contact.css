@@ -1,8 +1,9 @@
 .contact-component{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     margin-top: 80px;
     margin-left: 100px;
     margin-bottom: 80px;
+    border-radius: 20px;
     /* display: flex;
     flex-direction: column;
     align-items: center; */
@@ -103,18 +104,16 @@
     outline-width: 0px;
   }
   
-  .button {
-    background-color: #1e1e2c;
-    color: white;
-    border-radius: 2px;
-    margin-top: 15px;
-    padding: 10px;
-  }
-  
-  .button:hover {
-    background-color: #000;
-    color: white;
-  }
+  .sendmessage{
+    background-color: #2e104f;
+    font-size: 20px;
+}
+
+.sendmessage:hover{
+    transform: scale(1.05);
+    background-color: #2e104f;
+}
+
   
   /* ======================== */
   @media (max-width: 600px) {

@@ -27,9 +27,9 @@
     /* border-radius: 12px; */
     transition: background-color 0.9s ease;
     cursor: pointer;
-    background-color: rgba(0, 0, 0,0);
+    background-color: rgba(255, 255, 255, 0.295);
     transition: box-shadow 0.4s ease;
-    color: white;
+    color: rgb(0, 0, 0);
     border:2px solid;
     height:200px;
     border-color: #d8b4fe;
@@ -42,7 +42,7 @@
     padding-top: 10px;
     padding-left: 10px;   
     padding-right: 10px;       /* Add some vertical margin for spacing */
-    color: #ffffff;        
+    color: #000000;        
 }
 
 .activities-component .card-body{
@@ -56,18 +56,6 @@
     
     /* color: white; */
 }
-/* .activities-component .card-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-} */
-/* .activities-component .card-image img{
-    height: 250px;
-    width: 300px;
-    padding:30px;
-
-} */
 .activities-component .card-body {
     background-color: rgba(0, 0, 0, 0);
     padding: 10px; /* Add padding for internal spacing */
@@ -75,7 +63,7 @@
     justify-content: space-between; /* Space out items to the left and right edges */
     align-items: center; /* Align items vertically in the center */
     font-size: 1.2em; /* Set the font size */
-    color: #ffffff; /* Set the text color */
+    color: #000000; /* Set the text color */
     line-height: 1.5; /* Adjust line height for readability */
     width: 100%;
 }

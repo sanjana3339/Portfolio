@@ -16,13 +16,16 @@
     margin:0 auto;
     margin-bottom: 40px;
 }
+.nav-items {
+    overflow-y: auto; /* Enable vertical scrolling */
+}
 .nav-item {
     font-size: 22px;
     color: #000000;
     margin-top: 7px;
     padding-left: 20px;
     padding: 7.5px; /* Add some padding for better visual effect */
-    border-radius: 8px; /* Optional: add rounded corners */
+    border-radius: 2px; /* Optional: add rounded corners */
 }
 
 .nav-link {
@@ -80,3 +83,4 @@
     margin-top: 29px;
     margin-left: 26px;
 }
+

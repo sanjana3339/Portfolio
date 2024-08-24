@@ -15,6 +15,11 @@ export const achievementsList = [
       name: "Jee Mains 2021",
       content:"Percentile: 96.7"
     },
+    {
+      _id: 4,
+      name: "Maths Topper Award",
+      content:"For class 9 & 10"
+    },
   
   ];
   
