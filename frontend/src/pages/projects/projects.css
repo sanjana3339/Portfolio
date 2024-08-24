@@ -1,41 +1,95 @@
-.projects-component{
-    background-color: rgba(0, 0, 0,0);
+.projects-component {
+    background-color: rgba(0, 0, 0, 0);
     margin-top: 80px;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.projects-component h1{
-    color:#ffffff ;
+
+.projects-component h1 {
+    color: #ffffff;
     padding-bottom: 5px;
     border-bottom: 2px solid;
     display: flex;
-    
 }
-.projects-component .row{
-    padding-top: 30px;
-    
+
+.projects-component .row {
+    /* padding-top: 30px; */
+    display: flex;
+    width:100%;
+    flex-wrap: wrap; /* Ensure the cards wrap correctly */
+    /* gap: 40px; Space between cards */
+    /* justify-content: center; Center the cards horizontally */
 }
+
+/* .projects-component .col-md-4{
+    padding: 30px;
+} */
 .projects-component .card {
-    /* border-radius: 12px; */
-    transition: background-color 0.9s ease;
-    cursor: pointer;
-    transition: box-shadow 0.4s ease;
+    /* position: relative; */
+    width: 350px; /* Adjust width to fit three cards in a row */
+    height: 330px; /* Adjust height as needed */
+    /* perspective: 1000px; Create the 3D effect */
+    gap: 30px;
+    border-color: transparent;
+    background: transparent;
     margin-top: 30px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
 }
+
+.projects-component .card .card-side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.7s;
+    /* , background-color 0.6s; Add transition for background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+    border-radius: 8px; /* Round the corners */
+    background-color: transparent; /* Transparent background during flip */
+}
+
+.projects-component .card .card-side.front {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.projects-component .card .card-side.back {
+    color: #000000;
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+}
+
+.projects-component .card:hover .card-side.front {
+    transform: rotateY(180deg);
+}
+
+.projects-component .card:hover .card-side.back {
+    transform: rotateY(0deg);
+}
+
 .projects-component .card-title {
-    font-size: 1.4em;        /* Adjust the font size */
-    font-weight: bold;       /* Make the title bold */
-    text-align: center;      /* Center the text horizontally */
+    font-size: 1.5em; /* Adjusted for better fit */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
     padding-top: 10px;
     padding-left: 10px;   
-    padding-right: 10px;       /* Add some vertical margin for spacing */
-    color: #000000;        
+    padding-right: 10px; 
+    /* white-space: nowrap; Keep title in one line */
+    /* overflow: hidden; Hide overflowing text */
+    /* text-overflow: ellipsis; Add ellipsis for overflow */
 }
 
 .projects-component .card-body{
-    background-color:rgba(0, 0, 0, 0);
+    /* background-color:rgba(0, 0, 0, 0); */
     /* border: 2px solid #d8b4fe; Sets the border color and width */
     padding-top: 2px;
     display: flex;
@@ -49,40 +103,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ensure the container takes up the full height of the card body */
-}
-.projects-component .card-image img{
-    height: 300px;
-    width: 400px;
-    padding:30px;
-    /* color: white; */
-}
-.projects-component .card-desc {
-    font-size: 1.1em;           /* Set the font size */
-    color: #000000;              /* Set the text color to a medium gray */
-    line-height: 1.5;         /* Adjust line height for readability */
-    text-align: justify;         /* Align the text to the left */          /* Add some vertical margin for spacing */
-    padding: 5px;            /* Add padding for internal spacing */       /* Optional: Round the corners */
-    
+    height: 80%; /* Adjust based on content */
+    width: 100%; /* Ensure the image container takes full width */
 }
 
-.projects-component .git-link{
-    padding-top: 15px;
-    font-size: 1.1em;
+.projects-component .card-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+
 }
-.projects-component .card:hover{
-    /* background-color:rgba(0, 0, 0, 0); */
-    /* color: white; */
-    box-shadow: 0 0 30px #d8b4fe;
-    transform: scale(1.05);
+
+.projects-component .card-desc {
+    font-size: 1.2em; /* Adjusted for better fit */
+    color: #000000;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 5px;
 }
+
+.projects-component .git-link {
+    padding-top: 23px;
+    font-size: 1.2em; /* Adjusted for better fit */
+}
+
 
 .projects-component .tech-badge {
     display: inline-block;
     background-color: #32005d;
-    color:white;
+    color: white;
     padding: 5px 10px;
     margin: 7px 7px 5px 0;
     border-radius: 8px;
-    font-size: 1.1em;
-  }
+    font-size: 1em; /* Adjusted for better fit */
+}

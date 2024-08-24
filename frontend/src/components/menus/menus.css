@@ -1,37 +1,40 @@
-.menu-page-profile-pic img{
-    height:150px; 
-    width:150px;
+/* Styles for the profile picture in the menu */
+.menu-page-profile-pic img {
+    height: 150px; 
+    width: 150px;
     border-radius: 90px;
     display: flex;
     vertical-align: middle;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.menu-page-profile-pic-toggle img{
+.menu-page-profile-pic-toggle img {
     border-radius: 90px;
-    height:55px;
-    width:55px;
+    height: 55px;
+    width: 55px;
     display: flex;
     vertical-align: middle;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 40px;
 }
+
 .nav-items {
-    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-y: auto;
 }
+
 .nav-item {
     font-size: 22px;
     color: #000000;
     margin-top: 7px;
     padding-left: 20px;
-    padding: 7.5px; /* Add some padding for better visual effect */
-    border-radius: 2px; /* Optional: add rounded corners */
+    padding: 7.5px;
+    border-radius: 2px;
 }
 
 .nav-link {
     cursor: pointer;
-    display: flex; /* To align icon and text horizontally */
-    align-items: center; /* Vertically center icon and text */
+    display: flex;
+    align-items: center;
 }
 
 .nav-link svg {
@@ -40,47 +43,65 @@
 }
 
 .nav-item:hover {
-    background-color: aliceblue; /* Change background color on hover */
+    background-color: aliceblue;
 }
 
 .nav-link:hover {
-    /* background-color: aliceblue; */
-    color: #400d74;
+    color: #000000;
 }
 
 .nav-link svg:hover {
-    /* background-color: aliceblue; */
-    color: #400d74;
+    color: #000000;
 }
 
-/* .rocket .nav-link::after {
-    content: "👀"; 
-    position: relative;
-    left: 0.5em; 
-    opacity: 0;
-    transition: opacity 0.4s;
+.nav-item.active {
+    background-color: #dcdcdc;
+    font-weight: bold;
 }
 
-.rocket .nav-link:hover::after {
-    opacity: 1;
-    border-bottom: 2px solid currentColor;
-} */
+.nav-link.active {
+    color: #000000;
+}
+
+.nav-link svg.active {
+    color: #000000;
+}
+
+.nav-item-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-top: 2px;
+   margin-bottom: 2px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    height: 63px; 
+    width: 100%;  
+}
 
 .nav-item-toggle svg {
     color: rgb(0, 0, 0);
-    height: 30px;
-    width: 30px;
-    margin-top: 29px;
-    margin-left: 26px;
+    height: 32px;
+    width: 32px;
 }
+
 .nav-item-toggle:hover svg {
     color: rgb(0, 0, 0);
     height: 32px;
     width: 32px;
-    background-color: aliceblue;
     border-radius: 5px;
-    padding:1px;
-    margin-top: 29px;
-    margin-left: 26px;
+    padding: 1px;
 }
 
+.nav-item-toggle.active svg {
+    color: #000000;
+}
+
+.nav-item-toggle:hover {
+    background-color: aliceblue;
+}
+
+.nav-item-toggle.active {
+    background-color: aliceblue;
+}

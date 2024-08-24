@@ -7,16 +7,16 @@
     /* background-color:#d8b4fe; */
     /* background: linear-gradient(to bottom,rgb(28, 0, 54),rgb(164, 75, 247)); */
     /* background-color: rgb(255,255,255,0.8); */
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
     width: 90px;
     position: fixed;
 }
 .sidebar-toggle{
     position: fixed;
     height:100vh;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
     /* background: linear-gradient(to left,rgb(23, 63, 197),rgb(0, 5, 125)); */
     /* background-color: rgb(255,255,255,0.8); */
     width:200px;
