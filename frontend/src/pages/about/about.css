@@ -64,3 +64,13 @@
   line-height: 1.5;
   text-align: justify;
 }
+
+@media(max-width:600px){
+  .about-page{
+    margin-left:2px;
+    padding-top: 20px;
+  }
+  .type-writer{
+    font-size:35px;
+  }
+}

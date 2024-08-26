@@ -114,21 +114,11 @@
     background-color: #2e104f;
 }
 
-  
-  /* ======================== */
-  @media (max-width: 600px) {
-    .contact {
-      margin: 0;
-      padding: 0;
-      margin-top: 50px;
+
+  @media(max-width:600px){
+    .contact-component{
+      margin-left:2px;
+      padding-top: 20px;
     }
-    .contact .card2 {
-      margin: 0;
-    }
-  
-    .contact .card2 h6 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
+
+}

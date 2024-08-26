@@ -1,0 +1,49 @@
+.mobile-nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.mobile-nav .mobile-nav-header{
+    color: white;
+    font-size: 27px;
+    font-weight:500;
+    height:60px;
+    width: 100%;
+    padding-top:3px;
+    padding-left: 17px;
+    background-color: rgb(48, 17, 77);
+}
+
+.mobile-nav .mobile-title{
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.mobile-nav .mobile-header-icon{
+    cursor:pointer;
+}
+
+.mobile-nav .mobile-menu{
+    height:auto;
+    width:200px;
+    padding:10px;
+    background-color: rgb(48, 17, 77);
+}
+
+.mobile-nav .mobile-menu .nav-item{
+    color: white;
+}
+
+.mobile-nav .mobile-menu .nav-item.active{
+    color: rgb(0, 0, 0);
+}
+
+@media(min-width:600px){
+    .mobile-nav{
+        display: none;
+    }
+}

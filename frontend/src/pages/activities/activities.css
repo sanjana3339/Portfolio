@@ -75,3 +75,11 @@
     transform: scale(1.05); 
 }
 
+
+@media(max-width:600px){
+    .activities-component{
+      margin-left:2px;
+      padding-top: 20px;
+    }
+
+}

@@ -89,3 +89,12 @@
     max-width: 100%;  /* Image will scale proportionally to fit within the container */
     display: block;
 }
+
+
+@media(max-width:600px){
+    .internship-component{
+      margin-left:2px;
+      padding-top: 20px;
+    }
+
+}

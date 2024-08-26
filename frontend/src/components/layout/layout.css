@@ -34,3 +34,13 @@
     color:rgb(255, 255, 255);
     margin-top: 10px;
 }
+
+
+@media (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+    .sidebar-toggle{
+        display: none;
+    }
+}

@@ -137,3 +137,16 @@
     border-radius: 8px;
     font-size: 1em; /* Adjusted for better fit */
 }
+
+
+
+@media(max-width:600px){
+    .projects-component{
+      margin-left:2px;
+      padding-top: 20px;
+    }
+
+    .projects-component .row{
+        margin-left:120px;
+    }
+}

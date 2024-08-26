@@ -13,6 +13,7 @@ import Internship from '../../pages/internship/internship';
 import Activities from '../../pages/activities/activities';
 import Contact from '../../pages/contact/contact';
 import { useEffect } from 'react';
+import Mobile from '../mobile-navbar/mobile';
 
 function Layout()
 {
@@ -38,7 +39,9 @@ function Layout()
     }, []);
 return(
     <div>
+         <Mobile/>
         <div className='sidebar-section'>
+           
             <div className={toggle?'sidebar-toggle':'sidebar'}>
             
                 <div className='sidebar-toggle-icons'>
