@@ -14,6 +14,8 @@ import Activities from '../../pages/activities/activities';
 import Contact from '../../pages/contact/contact';
 import { useEffect } from 'react';
 import Mobile from '../mobile-navbar/mobile';
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Layout()
 {
@@ -39,6 +41,7 @@ function Layout()
     }, []);
 return(
     <div>
+        <ToastContainer/>
          <Mobile/>
         <div className='sidebar-section'>
            
@@ -83,6 +86,9 @@ return(
                     <Contact />
                 </div>
             </div>
+        </div>
+        <div className="footer pb-1 " style={{backgroundColor:'White',marginLeft:'90px',paddingTop:'5px'}}>
+            <h4 className="text-center" >Made by Sanjana &copy; 2024</h4>
         </div>
     </div>
 )
