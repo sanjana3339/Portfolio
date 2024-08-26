@@ -90,7 +90,7 @@ function Menus(props) {
                         <div>
                             {["about", "education", "skills", "projects", "internship", "certification", "achievements", "activities", "contact"].map(section => (
                                 <div key={section} className={`nav-item-toggle ${activeSection === section ? "active" : ""}`}>
-                                    <div className='nav-link' onClick={() => handleClick(section)}>
+                                    <div className='nav-link' onClick={() => handleClick(section)} data-label={getLabel(section)} >
                                         {getIcon(section)}
                                     </div>
                                 </div>

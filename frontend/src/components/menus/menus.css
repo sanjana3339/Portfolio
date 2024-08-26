@@ -6,6 +6,7 @@
     display: flex;
     vertical-align: middle;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .menu-page-profile-pic-toggle img {
@@ -15,11 +16,13 @@
     display: flex;
     vertical-align: middle;
     margin: 0 auto;
+    z-index: 1;
     margin-bottom: 40px;
 }
 
 .nav-items {
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .nav-item {
@@ -43,7 +46,7 @@
 }
 
 .nav-item:hover {
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.659);
 }
 
 .nav-link:hover {
@@ -55,7 +58,7 @@
 }
 
 .nav-item.active {
-    background-color: #dcdcdc;
+    background-color: aliceblue;
     font-weight: bold;
 }
 
@@ -73,13 +76,15 @@
     align-items: center; 
     text-align: center;
     margin-top: 2px;
-   margin-bottom: 2px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 63px; 
     width: 100%;  
+    position: relative;
 }
 
+/* Styles for the icons in the sidebar */
 .nav-item-toggle svg {
     color: rgb(0, 0, 0);
     height: 32px;
@@ -99,7 +104,30 @@
 }
 
 .nav-item-toggle:hover {
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.659);
+}
+
+.nav-item-toggle .nav-link::after {
+    content: attr(data-label);
+    visibility: hidden; 
+    opacity: 0; 
+    background-color: #000000; 
+    color: #ffffff; 
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: absolute; 
+    z-index: 4;
+    left: 50%;
+    bottom: 100%; 
+    transform: translateX(-50%); 
+    transition: opacity 0.3s; 
+    pointer-events: none; 
+}
+
+
+.nav-item-toggle .nav-link:hover::after {
+    visibility: visible;
+    opacity: 1;
 }
 
 .nav-item-toggle.active {

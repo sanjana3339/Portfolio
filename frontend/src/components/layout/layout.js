@@ -12,6 +12,7 @@ import Achievements from '../../pages/achievements/achievements';
 import Internship from '../../pages/internship/internship';
 import Activities from '../../pages/activities/activities';
 import Contact from '../../pages/contact/contact';
+import { useEffect } from 'react';
 
 function Layout()
 {
@@ -19,6 +20,22 @@ function Layout()
     const handleToggle=()=>{
         setToggle(!toggle)
     }
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 1540) {
+                setToggle(false); // Collapse sidebar on larger screens
+            } 
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        // Run the handler once on mount to set the initial state
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 return(
     <div>
         <div className='sidebar-section'>
