@@ -94,6 +94,7 @@
 @media(max-width:600px){
     .internship-component{
       margin-left:2px;
+      width:100%;
       padding-top: 20px;
     }
 
